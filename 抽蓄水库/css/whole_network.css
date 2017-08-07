@@ -1,0 +1,48 @@
+html{overflow:auto}
+#main{
+	height: 815px;
+	/*margin-bottom: 200px;*/
+}
+#main #main_left{
+	width: 403px;
+	height: 100%;
+
+	float: left;
+	margin-right: 9px;
+}
+#main #main_left .chart_box{
+	height: 268px;
+	width: 403px;
+	border: 1px solid #104093;
+	margin-bottom: 6px;
+	background: url(../images/chart_bg_03.png);
+}
+#main #main_left .chart_box .chart_title{
+	width: 100%;
+	height: 30px;
+	background: url(../images/chart_box_bg_03.png) no-repeat left top;
+	padding-left: 41px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#main #main_left .chart_box .chart_con{
+	width: 100%;
+	height: 238px;
+}
+#main #main_right{
+	height: 100%;
+	float: left;
+}
+#main #main_right .chart_box2{
+	height: 269px;
+	width: 100%;
+	border: 1px solid #104093;
+	margin-bottom: 6px;
+	background: url(../images/chart_bg_03.png);
+	}
+	#main #main_right .chart_box2 img{
+		width: 100%;
+		height: 100%;
+	}
